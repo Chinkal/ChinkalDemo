@@ -7,8 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD2E312222F59CFF005DE319 /* ApiHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2E312122F59CFF005DE319 /* ApiHandler.swift */; };
+		AD2E312422F59D6D005DE319 /* DataDownloadCompletionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2E312322F59D6D005DE319 /* DataDownloadCompletionDelegate.swift */; };
+		AD2E312822F5A343005DE319 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2E312722F5A343005DE319 /* ViewModel.swift */; };
+		AD2E312A22F5A455005DE319 /* Airport.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2E312922F5A455005DE319 /* Airport.swift */; };
+		ADB9829322F58A40005CD627 /* SearchbarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB9829222F58A40005CD627 /* SearchbarVC.swift */; };
+		ADB9829822F58D3E005CD627 /* CityListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB9829722F58D3E005CD627 /* CityListCell.swift */; };
+		ADB9829A22F59117005CD627 /* AirportListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB9829922F59117005CD627 /* AirportListVC.swift */; };
+		ADB9829C22F593A5005CD627 /* AirpotListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB9829B22F593A5005CD627 /* AirpotListCell.swift */; };
+		ADB9829F22F59451005CD627 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB9829E22F59451005CD627 /* Extension.swift */; };
 		ADD6DBFC22F41D9D0099C54B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD6DBFB22F41D9D0099C54B /* AppDelegate.swift */; };
-		ADD6DBFE22F41D9D0099C54B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD6DBFD22F41D9D0099C54B /* ViewController.swift */; };
 		ADD6DC0122F41D9D0099C54B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADD6DBFF22F41D9D0099C54B /* Main.storyboard */; };
 		ADD6DC0322F41DA40099C54B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADD6DC0222F41DA40099C54B /* Assets.xcassets */; };
 		ADD6DC0622F41DA40099C54B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADD6DC0422F41DA40099C54B /* LaunchScreen.storyboard */; };
@@ -34,9 +42,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AD2E312122F59CFF005DE319 /* ApiHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiHandler.swift; sourceTree = "<group>"; };
+		AD2E312322F59D6D005DE319 /* DataDownloadCompletionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataDownloadCompletionDelegate.swift; sourceTree = "<group>"; };
+		AD2E312722F5A343005DE319 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		AD2E312922F5A455005DE319 /* Airport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Airport.swift; sourceTree = "<group>"; };
+		ADB9829222F58A40005CD627 /* SearchbarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchbarVC.swift; sourceTree = "<group>"; };
+		ADB9829722F58D3E005CD627 /* CityListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityListCell.swift; sourceTree = "<group>"; };
+		ADB9829922F59117005CD627 /* AirportListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportListVC.swift; sourceTree = "<group>"; };
+		ADB9829B22F593A5005CD627 /* AirpotListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirpotListCell.swift; sourceTree = "<group>"; };
+		ADB9829E22F59451005CD627 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		ADD6DBF822F41D9D0099C54B /* ChinkalDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChinkalDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADD6DBFB22F41D9D0099C54B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ADD6DBFD22F41D9D0099C54B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ADD6DC0022F41D9D0099C54B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ADD6DC0222F41DA40099C54B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADD6DC0522F41DA40099C54B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -74,6 +90,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AD2E312022F59CEF005DE319 /* ApiHandler */ = {
+			isa = PBXGroup;
+			children = (
+				AD2E312122F59CFF005DE319 /* ApiHandler.swift */,
+				AD2E312322F59D6D005DE319 /* DataDownloadCompletionDelegate.swift */,
+			);
+			path = ApiHandler;
+			sourceTree = "<group>";
+		};
+		AD2E312522F5A319005DE319 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AD2E312922F5A455005DE319 /* Airport.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AD2E312622F5A330005DE319 /* VIewModels */ = {
+			isa = PBXGroup;
+			children = (
+				AD2E312722F5A343005DE319 /* ViewModel.swift */,
+			);
+			path = VIewModels;
+			sourceTree = "<group>";
+		};
+		ADB9828F22F5888C005CD627 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ADD6DBFB22F41D9D0099C54B /* AppDelegate.swift */,
+				ADB9829222F58A40005CD627 /* SearchbarVC.swift */,
+				ADB9829922F59117005CD627 /* AirportListVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		ADB9829422F58CEA005CD627 /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				ADB9829722F58D3E005CD627 /* CityListCell.swift */,
+				ADB9829B22F593A5005CD627 /* AirpotListCell.swift */,
+			);
+			path = CustomCells;
+			sourceTree = "<group>";
+		};
+		ADB9829D22F59442005CD627 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				ADB9829E22F59451005CD627 /* Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		ADD6DBEF22F41D9D0099C54B = {
 			isa = PBXGroup;
 			children = (
@@ -97,11 +165,14 @@
 		ADD6DBFA22F41D9D0099C54B /* ChinkalDemo */ = {
 			isa = PBXGroup;
 			children = (
-				ADD6DBFB22F41D9D0099C54B /* AppDelegate.swift */,
-				ADD6DBFD22F41D9D0099C54B /* ViewController.swift */,
-				ADD6DBFF22F41D9D0099C54B /* Main.storyboard */,
-				ADD6DC0222F41DA40099C54B /* Assets.xcassets */,
-				ADD6DC0422F41DA40099C54B /* LaunchScreen.storyboard */,
+				AD2E312622F5A330005DE319 /* VIewModels */,
+				AD2E312522F5A319005DE319 /* Models */,
+				AD2E312022F59CEF005DE319 /* ApiHandler */,
+				ADB9829D22F59442005CD627 /* Extension */,
+				ADB9829422F58CEA005CD627 /* CustomCells */,
+				ADB9828F22F5888C005CD627 /* Controllers */,
+				ADD6DC2A22F41DB90099C54B /* Asserts */,
+				ADD6DC2922F41DAE0099C54B /* Nib */,
 				ADD6DC0722F41DA40099C54B /* Info.plist */,
 			);
 			path = ChinkalDemo;
@@ -123,6 +194,23 @@
 				ADD6DC1D22F41DA40099C54B /* Info.plist */,
 			);
 			path = ChinkalDemoUITests;
+			sourceTree = "<group>";
+		};
+		ADD6DC2922F41DAE0099C54B /* Nib */ = {
+			isa = PBXGroup;
+			children = (
+				ADD6DC0422F41DA40099C54B /* LaunchScreen.storyboard */,
+				ADD6DBFF22F41D9D0099C54B /* Main.storyboard */,
+			);
+			path = Nib;
+			sourceTree = "<group>";
+		};
+		ADD6DC2A22F41DB90099C54B /* Asserts */ = {
+			isa = PBXGroup;
+			children = (
+				ADD6DC0222F41DA40099C54B /* Assets.xcassets */,
+			);
+			path = Asserts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +344,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADD6DBFE22F41D9D0099C54B /* ViewController.swift in Sources */,
+				ADB9829A22F59117005CD627 /* AirportListVC.swift in Sources */,
+				AD2E312822F5A343005DE319 /* ViewModel.swift in Sources */,
+				ADB9829822F58D3E005CD627 /* CityListCell.swift in Sources */,
+				ADB9829322F58A40005CD627 /* SearchbarVC.swift in Sources */,
+				ADB9829F22F59451005CD627 /* Extension.swift in Sources */,
+				AD2E312A22F5A455005DE319 /* Airport.swift in Sources */,
+				AD2E312222F59CFF005DE319 /* ApiHandler.swift in Sources */,
 				ADD6DBFC22F41D9D0099C54B /* AppDelegate.swift in Sources */,
+				AD2E312422F59D6D005DE319 /* DataDownloadCompletionDelegate.swift in Sources */,
+				ADB9829C22F593A5005CD627 /* AirpotListCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
